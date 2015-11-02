@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6897B8934A54F75C5768ED1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6907134DF029E4AC788A7AF4 /* libPods.a */; };
+		EFD02CAF1BD21A3400AB65CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CAE1BD21A3400AB65CD /* AppDelegate.swift */; };
+		EFD02CB41BD21A3400AB65CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD02CB21BD21A3400AB65CD /* Main.storyboard */; };
+		EFD02CB61BD21A3400AB65CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD02CB51BD21A3400AB65CD /* Assets.xcassets */; };
+		EFD02CB91BD21A3400AB65CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD02CB71BD21A3400AB65CD /* LaunchScreen.storyboard */; };
+		EFD02CC41BD21A3400AB65CD /* persimmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CC31BD21A3400AB65CD /* persimmonTests.swift */; };
+		EFD02CCF1BD21A3400AB65CD /* persimmonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CCE1BD21A3400AB65CD /* persimmonUITests.swift */; };
+		EFD02CE81BD21B3400AB65CD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CDE1BD21B3400AB65CD /* CollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CE91BD21B3400AB65CD /* HelpersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CDF1BD21B3400AB65CD /* HelpersViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CEA1BD21B3400AB65CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CE01BD21B3400AB65CD /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CEB1BD21B3400AB65CD /* MorningGoalsLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CE11BD21B3400AB65CD /* MorningGoalsLayoutController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CEC1BD21B3400AB65CD /* NightGoalsLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CE21BD21B3400AB65CD /* NightGoalsLayoutController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CED1BD21B3400AB65CD /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CE41BD21B3400AB65CD /* SigninViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CEE1BD21B3400AB65CD /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CE51BD21B3400AB65CD /* SingupViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFD02CF11BD21BE300AB65CD /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD02CF01BD21BE300AB65CD /* bridge.m */; settings = {ASSET_TAGS = (); }; };
+		EFDC5B2F1BD3A67500A662CF /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC5B2E1BD3A67500A662CF /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EFDE212C1BD3856F00B1C396 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE212B1BD3856F00B1C396 /* CenterCellCollectionViewFlowLayout.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD02CC01BD21A3400AB65CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD02CA31BD21A3300AB65CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD02CAA1BD21A3300AB65CD;
+			remoteInfo = persimmon;
+		};
+		EFD02CCB1BD21A3400AB65CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD02CA31BD21A3300AB65CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD02CAA1BD21A3300AB65CD;
+			remoteInfo = persimmon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6907134DF029E4AC788A7AF4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39C41ED0C5B6B029AAF43F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E7B6CE47B847893A71D09A51 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD02CAB1BD21A3300AB65CD /* persimmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = persimmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD02CAE1BD21A3400AB65CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD02CB31BD21A3400AB65CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD02CB51BD21A3400AB65CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD02CB81BD21A3400AB65CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFD02CBA1BD21A3400AB65CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD02CBF1BD21A3400AB65CD /* persimmonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = persimmonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD02CC31BD21A3400AB65CD /* persimmonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persimmonTests.swift; sourceTree = "<group>"; };
+		EFD02CC51BD21A3400AB65CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD02CCA1BD21A3400AB65CD /* persimmonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = persimmonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD02CCE1BD21A3400AB65CD /* persimmonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persimmonUITests.swift; sourceTree = "<group>"; };
+		EFD02CD01BD21A3400AB65CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD02CDC1BD21B3400AB65CD /* persimmon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "persimmon-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFD02CDE1BD21B3400AB65CD /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EFD02CDF1BD21B3400AB65CD /* HelpersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpersViewController.swift; sourceTree = "<group>"; };
+		EFD02CE01BD21B3400AB65CD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EFD02CE11BD21B3400AB65CD /* MorningGoalsLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningGoalsLayoutController.swift; sourceTree = "<group>"; };
+		EFD02CE21BD21B3400AB65CD /* NightGoalsLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightGoalsLayoutController.swift; sourceTree = "<group>"; };
+		EFD02CE41BD21B3400AB65CD /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		EFD02CE51BD21B3400AB65CD /* SingupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		EFD02CF01BD21BE300AB65CD /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
+		EFDC5B2E1BD3A67500A662CF /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		EFDE212B1BD3856F00B1C396 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD02CA81BD21A3300AB65CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6897B8934A54F75C5768ED1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CBC1BD21A3400AB65CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CC71BD21A3400AB65CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E7FE73AEA30D540CEFFAE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6907134DF029E4AC788A7AF4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70319F55C86C54313368FF83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6CE47B847893A71D09A51 /* Pods.debug.xcconfig */,
+				D39C41ED0C5B6B029AAF43F5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFD02CA21BD21A3300AB65CD = {
+			isa = PBXGroup;
+			children = (
+				EFD02CAD1BD21A3300AB65CD /* persimmon */,
+				EFD02CC21BD21A3400AB65CD /* persimmonTests */,
+				EFD02CCD1BD21A3400AB65CD /* persimmonUITests */,
+				EFD02CAC1BD21A3300AB65CD /* Products */,
+				70319F55C86C54313368FF83 /* Pods */,
+				33E7FE73AEA30D540CEFFAE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD02CAC1BD21A3300AB65CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CAB1BD21A3300AB65CD /* persimmon.app */,
+				EFD02CBF1BD21A3400AB65CD /* persimmonTests.xctest */,
+				EFD02CCA1BD21A3400AB65CD /* persimmonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD02CAD1BD21A3300AB65CD /* persimmon */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CAE1BD21A3400AB65CD /* AppDelegate.swift */,
+				EFD02CF41BD21D5B00AB65CD /* cardControllers */,
+				EFD02CF31BD21D4300AB65CD /* signControllers */,
+				EFD02CF21BD21D3600AB65CD /* helpers */,
+				EFD02CB21BD21A3400AB65CD /* Main.storyboard */,
+				EFD02CB51BD21A3400AB65CD /* Assets.xcassets */,
+				EFD02CB71BD21A3400AB65CD /* LaunchScreen.storyboard */,
+			);
+			path = persimmon;
+			sourceTree = "<group>";
+		};
+		EFD02CC21BD21A3400AB65CD /* persimmonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CC31BD21A3400AB65CD /* persimmonTests.swift */,
+				EFD02CC51BD21A3400AB65CD /* Info.plist */,
+			);
+			path = persimmonTests;
+			sourceTree = "<group>";
+		};
+		EFD02CCD1BD21A3400AB65CD /* persimmonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CCE1BD21A3400AB65CD /* persimmonUITests.swift */,
+				EFD02CD01BD21A3400AB65CD /* Info.plist */,
+			);
+			path = persimmonUITests;
+			sourceTree = "<group>";
+		};
+		EFD02CF21BD21D3600AB65CD /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CDF1BD21B3400AB65CD /* HelpersViewController.swift */,
+				EFD02CF01BD21BE300AB65CD /* bridge.m */,
+				EFD02CBA1BD21A3400AB65CD /* Info.plist */,
+				EFD02CDC1BD21B3400AB65CD /* persimmon-Bridging-Header.h */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		EFD02CF31BD21D4300AB65CD /* signControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD02CE01BD21B3400AB65CD /* LoginViewController.swift */,
+				EFD02CE41BD21B3400AB65CD /* SigninViewController.swift */,
+				EFD02CE51BD21B3400AB65CD /* SingupViewController.swift */,
+				EFDC5B2E1BD3A67500A662CF /* TutorialViewController.swift */,
+			);
+			name = signControllers;
+			sourceTree = "<group>";
+		};
+		EFD02CF41BD21D5B00AB65CD /* cardControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE212B1BD3856F00B1C396 /* CenterCellCollectionViewFlowLayout.swift */,
+				EFD02CDE1BD21B3400AB65CD /* CollectionViewCell.swift */,
+				EFD02CE11BD21B3400AB65CD /* MorningGoalsLayoutController.swift */,
+				EFD02CE21BD21B3400AB65CD /* NightGoalsLayoutController.swift */,
+			);
+			name = cardControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD02CAA1BD21A3300AB65CD /* persimmon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD02CD31BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmon" */;
+			buildPhases = (
+				649572462ED44C368628E3ED /* Check Pods Manifest.lock */,
+				EFD02CA71BD21A3300AB65CD /* Sources */,
+				EFD02CA81BD21A3300AB65CD /* Frameworks */,
+				EFD02CA91BD21A3300AB65CD /* Resources */,
+				8405A27C57E32B0A0C351F7C /* Embed Pods Frameworks */,
+				55AFDEE944D9FBC5A7A5993F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = persimmon;
+			productName = persimmon;
+			productReference = EFD02CAB1BD21A3300AB65CD /* persimmon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD02CBE1BD21A3400AB65CD /* persimmonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD02CD61BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmonTests" */;
+			buildPhases = (
+				EFD02CBB1BD21A3400AB65CD /* Sources */,
+				EFD02CBC1BD21A3400AB65CD /* Frameworks */,
+				EFD02CBD1BD21A3400AB65CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD02CC11BD21A3400AB65CD /* PBXTargetDependency */,
+			);
+			name = persimmonTests;
+			productName = persimmonTests;
+			productReference = EFD02CBF1BD21A3400AB65CD /* persimmonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD02CC91BD21A3400AB65CD /* persimmonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD02CD91BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmonUITests" */;
+			buildPhases = (
+				EFD02CC61BD21A3400AB65CD /* Sources */,
+				EFD02CC71BD21A3400AB65CD /* Frameworks */,
+				EFD02CC81BD21A3400AB65CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD02CCC1BD21A3400AB65CD /* PBXTargetDependency */,
+			);
+			name = persimmonUITests;
+			productName = persimmonUITests;
+			productReference = EFD02CCA1BD21A3400AB65CD /* persimmonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD02CA31BD21A3300AB65CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sapar Jumabek";
+				TargetAttributes = {
+					EFD02CAA1BD21A3300AB65CD = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EFD02CBE1BD21A3400AB65CD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EFD02CAA1BD21A3300AB65CD;
+					};
+					EFD02CC91BD21A3400AB65CD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EFD02CAA1BD21A3300AB65CD;
+					};
+				};
+			};
+			buildConfigurationList = EFD02CA61BD21A3300AB65CD /* Build configuration list for PBXProject "persimmon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD02CA21BD21A3300AB65CD;
+			productRefGroup = EFD02CAC1BD21A3300AB65CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD02CAA1BD21A3300AB65CD /* persimmon */,
+				EFD02CBE1BD21A3400AB65CD /* persimmonTests */,
+				EFD02CC91BD21A3400AB65CD /* persimmonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD02CA91BD21A3300AB65CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD02CB91BD21A3400AB65CD /* LaunchScreen.storyboard in Resources */,
+				EFD02CB61BD21A3400AB65CD /* Assets.xcassets in Resources */,
+				EFD02CB41BD21A3400AB65CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CBD1BD21A3400AB65CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CC81BD21A3400AB65CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55AFDEE944D9FBC5A7A5993F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649572462ED44C368628E3ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8405A27C57E32B0A0C351F7C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD02CA71BD21A3300AB65CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE212C1BD3856F00B1C396 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				EFD02CE91BD21B3400AB65CD /* HelpersViewController.swift in Sources */,
+				EFD02CEC1BD21B3400AB65CD /* NightGoalsLayoutController.swift in Sources */,
+				EFD02CAF1BD21A3400AB65CD /* AppDelegate.swift in Sources */,
+				EFD02CEE1BD21B3400AB65CD /* SingupViewController.swift in Sources */,
+				EFD02CED1BD21B3400AB65CD /* SigninViewController.swift in Sources */,
+				EFD02CF11BD21BE300AB65CD /* bridge.m in Sources */,
+				EFD02CEA1BD21B3400AB65CD /* LoginViewController.swift in Sources */,
+				EFD02CE81BD21B3400AB65CD /* CollectionViewCell.swift in Sources */,
+				EFDC5B2F1BD3A67500A662CF /* TutorialViewController.swift in Sources */,
+				EFD02CEB1BD21B3400AB65CD /* MorningGoalsLayoutController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CBB1BD21A3400AB65CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD02CC41BD21A3400AB65CD /* persimmonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD02CC61BD21A3400AB65CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD02CCF1BD21A3400AB65CD /* persimmonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD02CC11BD21A3400AB65CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD02CAA1BD21A3300AB65CD /* persimmon */;
+			targetProxy = EFD02CC01BD21A3400AB65CD /* PBXContainerItemProxy */;
+		};
+		EFD02CCC1BD21A3400AB65CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD02CAA1BD21A3300AB65CD /* persimmon */;
+			targetProxy = EFD02CCB1BD21A3400AB65CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD02CB21BD21A3400AB65CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD02CB31BD21A3400AB65CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD02CB71BD21A3400AB65CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD02CB81BD21A3400AB65CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD02CD11BD21A3400AB65CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD02CD21BD21A3400AB65CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD02CD41BD21A3400AB65CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B6CE47B847893A71D09A51 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = persimmon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "persimmon/persimmon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD02CD51BD21A3400AB65CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39C41ED0C5B6B029AAF43F5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = persimmon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "persimmon/persimmon-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EFD02CD71BD21A3400AB65CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = persimmonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/persimmon.app/persimmon";
+			};
+			name = Debug;
+		};
+		EFD02CD81BD21A3400AB65CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = persimmonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/persimmon.app/persimmon";
+			};
+			name = Release;
+		};
+		EFD02CDA1BD21A3400AB65CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = persimmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = persimmon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFD02CDB1BD21A3400AB65CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = persimmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.021labs.persimmonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = persimmon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD02CA61BD21A3300AB65CD /* Build configuration list for PBXProject "persimmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD02CD11BD21A3400AB65CD /* Debug */,
+				EFD02CD21BD21A3400AB65CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD02CD31BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD02CD41BD21A3400AB65CD /* Debug */,
+				EFD02CD51BD21A3400AB65CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD02CD61BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD02CD71BD21A3400AB65CD /* Debug */,
+				EFD02CD81BD21A3400AB65CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD02CD91BD21A3400AB65CD /* Build configuration list for PBXNativeTarget "persimmonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD02CDA1BD21A3400AB65CD /* Debug */,
+				EFD02CDB1BD21A3400AB65CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD02CA31BD21A3300AB65CD /* Project object */;
+}
